@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #838283
+}
+
+body,
+prompt-display {
+    font-family: 'Roboto', sans-serif;
+}
+
+*:disabled {
+    cursor: not-allowed !important
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 20%;
+    text-align: center;
+}
+
+.correct {
+    background-color: rgb(135, 223, 77) !important
+}
+
+.incorrect {
+    background-color: rgb(255, 68, 68) !important
+}
+
+.one {
+    position: absolute;
+    left: 34rem;
+}
+.two {
+    position: absolute;
+    right: 34rem;
+}
+
+.three {
+    position: absolute;
+    left: 34rem;
+    bottom: 20rem;
+}
+
+.four {
+    position: absolute;
+    right: 34rem;
+    bottom: 20rem;
+}
+
+.timer {
+    position: absolute;
+    top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.correctletters {
+    color: rgb(21, 182, 128);
+    text-decoration: underline;
+}
+
+.header {
+    position:absolute;
+    top: 1rem;
+    text-align: center;
+}
+
+.word-input {
+    background-color: transparent;
+    border: 4px solid lightgray;
+    outline: none;
+    width: 100%;
+    resize: none;
+    margin: auto;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.word-input:focus {
+    border-color: gray;
+}
+
+.text-display {
+    text-align: center;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.rightOrWrong {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.correctword {
+    color: green;
+}
+
+.incorrectword {
+    color: red;
+}
+
+
+.helpbutton {
+    background-color: #18ac56;
+    outline: none;
+    border: 4px solid #44ac56;
+    padding: .5rem 1rem;
+    width: 100px;
+    max-width: 90%;
+    cursor: pointer;
+    position: absolute;
+    left: center;
+    top: 1rem;
+    color: #ffffff;
+}
+
+.helpbutton:hover {
+    background-color: #029c56;
+    border: 4px solid #18ac56;
+    padding: .5rem 1rem;
+    width: 100px;
+    max-width: 90%;
+    cursor: pointer;
+    position: absolute;
+    left: center;
+    top: 1rem;
+    color: #ffffff;
+}
+
+.overlay {
+    background-color: #ffffff;
+    position: fixed;
+    top: 10%;
+    left: 1;
+    width: 30rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 4px solid lightgray;
+}
+
+.seeAllButton {
+    cursor: pointer;
+}
+
+.devconsole {
+    background-color: black;
+    position: fixed;
+    padding: 1rem;
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    left: 89%;
+    top: 92.5%;
+}
+
+.dev-input {
+    background-color: transparent;
+    border: 4px solid lightgray;
+    color: white;
+    outline: none;
+    width: 100%;
+    resize: none;
+    margin: auto;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.amtOfWordsTxt {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.playbutton {
+    border: 0px;
+    outline: none;
+    width: 60%;
+    resize: none;
+    margin: auto;
+    align-self: center;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.playbutton:hover {
+    border: 0px;
+    outline: none;
+    width: 60%;
+    resize: none;
+    margin: auto;
+    align-self: center;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    clear: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+.a {
+    background-color: rgb(255, 0, 0)
+}
+
+.a:hover {
+    background-color: rgb(205, 0, 0)
+}
+
+.c {
+    background-color: #18ac56;
+}
+
+.c:hover {
+    background-color: #029c56;
+}
+
+.b {
+    background-color: rgb(0, 26, 255)
+}
+
+.b:hover {
+    background-color:rgb(0, 26, 205)
+}
+
+.d {
+    background-color: rgb(235, 177, 36);
+    color: black
+}
+
+.d:hover {
+    background-color: rgb(205, 177, 0);
+    color: black
+}
+
+.settings {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 210px;
+    bottom: 1rem;
+    position: fixed;
+    max-width: 90%;
+}

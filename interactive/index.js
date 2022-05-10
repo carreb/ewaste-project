@@ -1,6 +1,6 @@
 const infoText = document.getElementById('prompt-display');
 const titleText = document.getElementById('text-display');
-var currentSlide = 0
+var currentSlide = 1
 
 console.log(currentSlide)
 
@@ -15,14 +15,21 @@ function renderSlide(slideNumber) {
     }
     else if (slideNumber == 3) {
         titleText.innerHTML = "<b>Hazardous Materials in E-Waste</b>";
-        infoText.innerHTML = "E-Waste contains a lot of hazardous materials.<br>These materials include:<br><b>•</b> Test";
+        infoText.innerHTML = "E-Waste contains a lot of hazardous materials.<br>These materials include:<br><b>•</b> Lead<br><b>•</b> Arsenic <br><b>•</b> Mercury<br><b>•</b> Cadmium<br><b>•</b> and more.<br>These substances are linked to irreversible health conditions.";
+    }
+    else if (slideNumber == 4) {
+        titleText.innerHTML = "<b>Get ready for a multiple choice quiz"
+        infoText.innerHTML = "Click the button below to begin!"
+        document.getElementsByClassName('playbutton')[0].innerHTML = "START QUIZ"
     }
 }
 
-document.getElementsByClassName('playbutton')[1].addEventListener('click', () => {
+document.getElementsByClassName('playbutton')[0].addEventListener('click', () => {
     currentSlide += 1;
-    if (currentSlide > 9) {
-        currentSlide = 1;
+    if (currentSlide > 4) {
+        window.location.replace("./multiplechoice")
     }
     renderSlide(currentSlide);
 })
+
+renderSlide(currentSlide)
