@@ -68,6 +68,13 @@ function questionRenderer() {
         document.getElementsByClassName("four")[0].style.display = "none"
         correctAnswer = "a"
     }
+    if (currentQuestion === 6) {
+        questionDisplay.innerHTML = `Quiz complete! You got ${correctAmt} out of 5 correct!`
+        document.getElementsByClassName("one")[0].style.display = "none"
+        document.getElementsByClassName("two")[0].style.display = "none"
+        document.getElementsByClassName("three")[0].style.display = "none"
+        document.getElementsByClassName("four")[0].style.display = "none"
+    }
 }
 
 // event listener for all buttons
