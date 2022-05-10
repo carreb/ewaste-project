@@ -74,6 +74,10 @@ function questionRenderer() {
         document.getElementsByClassName("two")[0].style.display = "none"
         document.getElementsByClassName("three")[0].style.display = "none"
         document.getElementsByClassName("four")[0].style.display = "none"
+        sleep(10000)
+        .then(() => {
+            window.location.replace('https://carreb.github.io/ewaste-project')
+        })
     }
 }
 
