@@ -82,10 +82,10 @@ function questionRenderer() {
 a.addEventListener("click", () => {
     if (correctAnswer === "a") {
         correctAmt += 1
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("one")[0].classList.add("correct")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -105,10 +105,10 @@ a.addEventListener("click", () => {
             questionRenderer()
         })
     } else if (correctAnswer === "b") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true 
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("two")[0].classList.add("correct")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
@@ -129,10 +129,10 @@ a.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "c") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("three")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -153,10 +153,10 @@ a.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "d") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("four")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -181,10 +181,10 @@ a.addEventListener("click", () => {
 c.addEventListener("click", () => {
     if (correctAnswer === "c") {
         correctAmt += 1
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("three")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -204,10 +204,10 @@ c.addEventListener("click", () => {
             questionRenderer()
         })
     } else if (correctAnswer === "a") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("one")[0].classList.add("correct")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -228,10 +228,10 @@ c.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "b") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("two")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
@@ -252,10 +252,10 @@ c.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "d") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("four")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -281,10 +281,10 @@ c.addEventListener("click", () => {
 b.addEventListener("click", () => {
     if (correctAnswer === "b") {
         correctAmt += 1
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("two")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
@@ -305,10 +305,10 @@ b.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "a") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("one")[0].classList.add("correct")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -329,10 +329,10 @@ b.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "c") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("three")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -353,10 +353,10 @@ b.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "d") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("four")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -384,10 +384,10 @@ b.addEventListener("click", () => {
 d.addEventListener("click", () => {
     if (correctAnswer === "d") {
         correctAmt += 1
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("four")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
@@ -408,10 +408,10 @@ d.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "a") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("one")[0].classList.add("correct")
         document.getElementsByClassName("three")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -432,10 +432,10 @@ d.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "c") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("three")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("two")[0].classList.add("incorrect")
@@ -456,10 +456,10 @@ d.addEventListener("click", () => {
         })
     }
     else if (correctAnswer === "b") {
-        a.disabled
-        b.disabled
-        c.disabled
-        d.disabled
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
         document.getElementsByClassName("two")[0].classList.add("correct")
         document.getElementsByClassName("one")[0].classList.add("incorrect")
         document.getElementsByClassName("four")[0].classList.add("incorrect")
