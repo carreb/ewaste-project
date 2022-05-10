@@ -1,4 +1,5 @@
 // this code is so messy its awful
+// dont ever do it like this
 
 // Buttons
 const a = document.getElementById("question1Selector")
