@@ -83,6 +83,8 @@ function questionRenderer() {
 }
 
 // event listener for all buttons
+// scientists are still trying to figure out WHY I DID IT LIKE THIS
+// literally the worst possible way I could've done this, it's messy, cluttered, and annoying to navigate
 
 a.addEventListener("click", () => {
     if (correctAnswer === "a") {
